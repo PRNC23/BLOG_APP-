@@ -1,0 +1,59 @@
+#Contact{
+    width: 58vw;
+    height: 35rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=League+Script&family=Sankofa+Display&display=swap');
+}
+#contactHeading{
+    width: 60vw;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #ffffff;
+    margin: auto;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+.Box{
+    width: 55vw;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.contactBox{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+#x{
+    background-image: url('xLogo.avif');
+    background-size: cover;
+}
+#watsapp{
+    background-image: url('watsappLogo.webp');
+    background-size: cover;
+    background-color: #000000;
+}
+#email{
+    background-image: url('emailLogo.png');
+    background-size: cover;
+    background-color: #000000;
+}
+#phone{
+    background-image: url('phoneLogo.jpg');
+    background-size: cover;
+}
+#insta{
+    background-image: url('instaLogo.png');
+    background-size: cover;
+}
