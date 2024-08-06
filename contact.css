@@ -57,3 +57,21 @@
     background-image: url('instaLogo.png');
     background-size: cover;
 }
+#contactForm{
+    width: 58vw;
+    height: 22rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    width: 30vw;
+    height: 2rem;
+    padding: 2px;
+}
+#email{
+    background-color: #ffffff;
+}
